@@ -1,0 +1,167 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+    width: 100%;
+    overflow: auto !important;
+}
+body{
+    background-image: url("../img/soccer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 670px;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+}
+.button{
+    text-align: center !important;
+}
+/*---------------------------------------------------------------------------*/
+/*----------------                     nav bar              -----------------------*/
+/*---------------------------------------------------------------------------*/
+
+
+
+header{
+    width: 100%;
+    padding: 10px 40px;
+
+}
+.playpal{
+    color: white !important;
+    float: left;
+}
+header img{
+    width: 70px !important;
+    display: inline-block;
+}
+header h1{
+    display: inline;
+}
+.playpal:hover{
+    color: #6FF !important;
+}
+@font-face {
+    font-family: bauhaus;
+    src: url("fonts/Bauhaus-93_6274.ttf");
+}
+.bau{
+    font-family: bauhaus !important;
+    font-size: 70px !important;
+}
+@font-face {
+    font-family: goth;
+    src: url("fonts/CenturyGothic.ttf");
+}
+.goth{
+    font-family: goth !important;
+    font-size: 50px;
+}
+nav ul li{
+    color: white !important;
+    float: left;
+    padding:  10px 20px;
+}
+nav{
+    float: right;
+}
+nav ul li:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+.username:hover{
+    background: rgba(255, 255, 255, 0);
+}
+.mobile{
+    display: none;
+    color: black;
+}
+.dropdown-option{
+    border-top: 1px solid black;
+    color: black !important;
+    height: auto;
+    overflow: hidden;
+    display: none;
+    padding: 10px;
+}
+/*---------------------------------------------------------------------------*/
+/*----------------                        Modal                       ----------------*/
+/*---------------------------------------------------------------------------*/
+
+.modal-back{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999999;
+}
+.modal-box{
+    text-align: center;
+    background: rgba(245, 245, 245, 1);
+}
+
+/*---------------------------------------------------------------------------*/
+/*----------------                     else                     -----------------------*/
+/*---------------------------------------------------------------------------*/
+
+.top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.is-large{
+    background: #FF0000 !important ;
+    color: white!important;
+    margin: 30px 0;
+}
+.is-large:hover{
+    color: #66FFFF!important;
+}
+.mar-top{
+    margin-top: 75px !important;
+}
+
+/*---------------------------------------------------------------------------*/
+/*--------------------                  Loader                 --------------------*/
+/*---------------------------------------------------------------------------*/
+
+.container{
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

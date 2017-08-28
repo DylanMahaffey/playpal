@@ -1,0 +1,132 @@
+
+@media (max-width: 370px) {
+    #main{
+        text-align: center;
+    }
+    .btn-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .is-medium{
+        margin: 10px 0;
+    }
+}
+@media (max-width: 480px) {
+    .row{
+        display: block;
+    }
+}
+@media (max-width: 630px) {
+    .hidden{
+        display: none !important;
+    }
+    body{
+        padding-top: 60px;
+        height: auto;
+    }
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+    nav{
+        display: none;
+    }
+    #playpal{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        padding: 5px 0 0 10px;
+        height: auto;
+        width: 100%;
+        background: white;
+    }
+    #mobileMenu{
+        height: 50px;
+        margin: 0 !important;
+        border-radius: 50%;
+    }
+    #dropdown{
+        display: block;
+        border-bottom: 1px solid black;
+        background: white;
+    }
+    .time{
+        width: 100px !important;
+    }
+}
+@media (max-width: 780px) {
+    .box-height{
+        height: 400px!important;
+    }
+    #username{
+        display: none;
+    }
+    .box-style{
+        width: 90% !important;
+        height: 400px !important;
+    }
+    .index-main{
+        height: 100% !important;
+    }
+    main{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .mar-top{
+        margin-top: 0px;
+    }
+    .map-holder{
+        margin-bottom: 20px;
+    }
+    .bodyheight-auto{
+        height: auto !important;
+    }
+    .modal-back{
+        overflow-y: auto !important;
+    }
+    .modal-box{
+        overflow-y: scroll;
+    }
+    #add-form{
+        overflow-y: scroll;
+    }
+    .title{
+        margin: 0!important;
+    }
+    .form-contain{
+        overflow-y: auto;
+    }
+    .split{
+        flex-direction: column;
+    }
+    .form-col{
+        margin: 0;
+    }
+    form p{
+        margin: 0 !important;
+    }
+    .btn-row{
+        margin: 0!important;
+    }
+}
+@media (max-width: 1100px) {
+    .box-style{
+        width: 90% !important;
+        /*height: auto  !important;*/
+    }
+    .main-game{
+        flex-wrap: wrap;
+
+    }
+    .gameheight-auto{
+        height: auto !important;
+    }
+}

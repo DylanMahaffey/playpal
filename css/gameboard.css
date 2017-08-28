@@ -1,0 +1,242 @@
+body{
+    flex-direction: column;
+}
+.gameboard{
+    font-size: 3em;
+}
+
+/*---------------------------------------------------------------------------*/
+/*----------------                 main content          -----------------------*/
+/*---------------------------------------------------------------------------*/
+main{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60%;
+}
+.box-style{
+    height: 100% !important;
+    width: 40% !important;
+    padding: 0;
+    overflow-y: auto;
+}
+.box-style a{
+    color: #333333;
+}
+.is-large{
+    width: 300px;
+    height: 70px;
+    font-size: 2em !important;
+}
+.overflow{
+    overflow-y: visible;
+}
+/*---------------------------------------------------------------------------*/
+/*----------------                game box                -----------------------*/
+/*---------------------------------------------------------------------------*/
+.day-bar{
+    width: 100%;
+    background: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.game-bar{
+    width: 100%;
+    display: flex;
+    border-top: 1px solid #848484;
+    border-bottom: 1px solid #848484;
+}
+.game-bar:hover {
+    background: #00c4a7;
+    color: white;
+}
+.time{
+    margin: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid #848484;
+    width: 100px;
+}
+.game-info{
+    width: 100%;
+    margin: 0;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 12px;
+}
+.game-info span{
+    width: 60px;
+    display: inline-block;
+}
+.no-games{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*---------------------------------------------------------------------------*/
+/*----------------                        Modal                       ----------------*/
+/*---------------------------------------------------------------------------*/
+form{
+    width: auto;
+}
+.split{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+}
+.form-col{
+    margin: 10px 20px;
+    width: auto;
+    height: auto;
+}
+.modal-box p{
+    margin: 5px 0;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+.stretch{
+    width: 100% !important;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.textarea{
+    resize: none;
+}
+.modal-box span{
+    margin-right: 10px;
+}
+.last{
+    margin-right: 0px;
+}
+.date-row{
+    width: 100%;
+    display: flex;
+}
+.datetime{
+    width: 100%;
+}
+.btn-row{
+    margin: 5px 0;
+    margin-top: 25px;
+    position: relative;
+}
+#fieldsCheck{
+    display: none;
+    text-align: center;
+    color: red;
+}
+.red{
+    color: red !important;
+}
+.radio-option{
+    width: 80px;
+    display: flex;
+}
+.radio-option-intensity{
+    width: 120px;
+    display: flex;
+}
+.radio-col span{
+    margin-left: 5px;
+}
+.radio-col{
+    display: flex;
+    flex-direction: column;
+}
+/*---------------------------------------------------------------------------*/
+/*----------------                 Location Box                   ----------------*/
+/*---------------------------------------------------------------------------*/
+#map{
+    margin: 0;
+    width: 100% !important;
+    height: 100%;
+}
+.map-holder{
+    position: relative;
+}
+#locationSave{
+    margin-top: 10px;
+    width: 100%;
+    display: none;
+}
+#pac-input{
+    display: none;
+}
+#description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
+}
+
+.pac-card {
+  margin: 10px 10px 0 0;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  font-family: Roboto;
+}
+
+#pac-container {
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
+
+.pac-controls label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+#target {
+  width: 345px;
+}

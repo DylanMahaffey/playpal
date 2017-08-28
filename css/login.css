@@ -1,0 +1,38 @@
+.box{
+    background: rgba(200, 200, 200, 0.5);
+    display: flex;
+    height: 300px !important;
+    flex-direction: column !important;
+    align-items: center;
+    color: white !important;
+}
+.title{
+    color: white;
+}
+form p{
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+.row{
+    display: flex;
+}
+.sec{
+    text-align: center;
+    margin: 5px 10px;
+}
+.btn-row{
+    margin: 5px 0;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+.btn-row{
+    margin: 5px 0;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#signup{
+    display: none;
+}

@@ -1,0 +1,64 @@
+/*---------------------------------------------------------------------------*/
+/*----------------                 main content          -----------------------*/
+/*---------------------------------------------------------------------------*/
+.box{
+    background: rgba(200, 200, 200, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+    height: 400px !important;
+}
+h2{
+    margin-bottom: 30px;
+    font-size: 3em;
+    text-align: center;
+}
+h3{
+    font-size: 1.5em;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.is-medium{
+    margin: 20px 20px;
+    margin-top: 40px;
+    width: 150px;
+    /*background: #66FFFF;*/
+    color: white;
+}
+#main{
+    /*display: none;*/
+}
+/*---------------------------------------------------------------------------*/
+/*----------------                    sign up                -----------------------*/
+/*---------------------------------------------------------------------------*/
+#signup{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    color: white;
+}
+form p{
+    margin: 5px 0;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+.row{
+    display: flex;
+}
+.sec{
+    text-align: center;
+    margin: 5px 10px;
+}
+.btn-row{
+    margin: 5px 0;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+}
